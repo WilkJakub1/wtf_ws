@@ -7,8 +7,12 @@
 /home/jakub/wtf_ws/install/wtf/share/wtf/launch/launch_sim.launch.py
 /home/jakub/wtf_ws/install/wtf/share/wtf/launch/rsp.launch.py
 /home/jakub/wtf_ws/install/wtf/share/wtf/rviz
+/home/jakub/wtf_ws/install/wtf/share/wtf/description/camera.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/inertial_macros.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/robot.urdf.xacro
+/home/jakub/wtf_ws/install/wtf/share/wtf/description/materials.xacro
+/home/jakub/wtf_ws/install/wtf/share/wtf/description/gazebo_control.xacro
+/home/jakub/wtf_ws/install/wtf/share/wtf/description/lidar.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/robot_core.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/config
 /home/jakub/wtf_ws/install/wtf/share/wtf/worlds/worlds_combined.world

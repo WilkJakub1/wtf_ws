@@ -8,7 +8,11 @@ setup.py
 ../../build/wtf/wtf.egg-info/requires.txt
 ../../build/wtf/wtf.egg-info/top_level.txt
 ../../build/wtf/wtf.egg-info/zip-safe
+description/camera.xacro
+description/gazebo_control.xacro
 description/inertial_macros.xacro
+description/lidar.xacro
+description/materials.xacro
 description/robot.urdf.xacro
 description/robot_core.xacro
 launch/launch_sim.launch.py
