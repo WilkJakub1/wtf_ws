@@ -1,0 +1,2 @@
+[console_scripts]
+scan_publisher = wtf.scan_publisher:main

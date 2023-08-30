@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/wtf/wtf.egg-info
+writing ../../build/wtf/wtf.egg-info/PKG-INFO
+writing dependency_links to ../../build/wtf/wtf.egg-info/dependency_links.txt
+writing requirements to ../../build/wtf/wtf.egg-info/requires.txt
+writing top-level names to ../../build/wtf/wtf.egg-info/top_level.txt
+writing manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'
+reading manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'
+writing manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jakub/wtf_ws/build/wtf/build
+creating /home/jakub/wtf_ws/build/wtf/build/lib
+creating /home/jakub/wtf_ws/build/wtf/build/lib/wtf
+copying wtf/__init__.py -> /home/jakub/wtf_ws/build/wtf/build/lib/wtf
+running install
+running install_lib
+creating /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf
+copying /home/jakub/wtf_ws/build/wtf/build/lib/wtf/__init__.py -> /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf
+byte-compiling /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/jakub/wtf_ws/install/wtf/share/ament_index
+creating /home/jakub/wtf_ws/install/wtf/share/ament_index/resource_index
+creating /home/jakub/wtf_ws/install/wtf/share/ament_index/resource_index/packages
+copying resource/wtf -> /home/jakub/wtf_ws/install/wtf/share/ament_index/resource_index/packages
+copying package.xml -> /home/jakub/wtf_ws/install/wtf/share/wtf
+running install_egg_info
+Copying ../../build/wtf/wtf.egg-info to /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/jakub/wtf_ws/build/wtf/install.log'
