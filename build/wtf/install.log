@@ -6,7 +6,11 @@
 /home/jakub/wtf_ws/install/wtf/share/wtf/package.xml
 /home/jakub/wtf_ws/install/wtf/share/wtf/launch/launch_sim.launch.py
 /home/jakub/wtf_ws/install/wtf/share/wtf/launch/rsp.launch.py
-/home/jakub/wtf_ws/install/wtf/share/wtf/rviz
+/home/jakub/wtf_ws/install/wtf/share/wtf/launch/nav2_launch.py
+/home/jakub/wtf_ws/install/wtf/share/wtf/launch/scan_publisher.launch.py
+/home/jakub/wtf_ws/install/wtf/share/wtf/launch/rviz.launch.py
+/home/jakub/wtf_ws/install/wtf/share/wtf/rviz/my_config.rviz
+/home/jakub/wtf_ws/install/wtf/share/wtf/rviz/urdf_config.rviz
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/camera.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/inertial_macros.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/robot.urdf.xacro
@@ -14,7 +18,8 @@
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/gazebo_control.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/lidar.xacro
 /home/jakub/wtf_ws/install/wtf/share/wtf/description/robot_core.xacro
-/home/jakub/wtf_ws/install/wtf/share/wtf/config
+/home/jakub/wtf_ws/install/wtf/share/wtf/config/ekf.yaml
+/home/jakub/wtf_ws/install/wtf/share/wtf/config/nav2_params.yaml
 /home/jakub/wtf_ws/install/wtf/share/wtf/worlds/worlds_combined.world
 /home/jakub/wtf_ws/install/wtf/share/wtf/worlds/empty.world
 /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf-0.0.0-py3.8.egg-info/top_level.txt

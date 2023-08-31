@@ -8,6 +8,8 @@ setup.py
 ../../build/wtf/wtf.egg-info/requires.txt
 ../../build/wtf/wtf.egg-info/top_level.txt
 ../../build/wtf/wtf.egg-info/zip-safe
+config/ekf.yaml
+config/nav2_params.yaml
 description/camera.xacro
 description/gazebo_control.xacro
 description/inertial_macros.xacro
@@ -16,8 +18,13 @@ description/materials.xacro
 description/robot.urdf.xacro
 description/robot_core.xacro
 launch/launch_sim.launch.py
+launch/nav2_launch.py
 launch/rsp.launch.py
+launch/rviz.launch.py
+launch/scan_publisher.launch.py
 resource/wtf
+rviz/my_config.rviz
+rviz/urdf_config.rviz
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
