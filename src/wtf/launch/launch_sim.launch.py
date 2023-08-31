@@ -106,6 +106,7 @@ def generate_launch_description():
                                             description='Flag to enable use_sim_time'),
         actions.DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path,
                                             description='Absolute path to rviz config file'),
+        # joint_state_publisher_gui_node,
         gazebo,
         spawn_entity,
         # robot_localization_node,
@@ -114,7 +115,6 @@ def generate_launch_description():
         # transform,
         # scan_publisher,
         # nav2, 
-        joint_state_publisher_gui_node,
         # rviz_launch,
         # rviz_node
     ])
