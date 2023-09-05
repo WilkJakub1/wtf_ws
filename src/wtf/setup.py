@@ -29,6 +29,7 @@ setup(
     entry_points={
             'console_scripts': [
                     'scan_publisher = wtf.scan_publisher:main',
+                    'const_scan = wtf.const_scan:main',
             ],
     },
 )

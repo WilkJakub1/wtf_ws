@@ -1,2 +1,3 @@
 [console_scripts]
+const_scan = wtf.const_scan:main
 scan_publisher = wtf.scan_publisher:main

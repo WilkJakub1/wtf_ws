@@ -40,16 +40,16 @@ class MinimalPublisher(Node):
         print(self.counter)
 
 
-        if msg.pose.pose.position.z > 0.5 and msg.pose.pose.position.z < 20:
+        if msg.pose.pose.position.z > 0.5 and msg.pose.pose.position.z < 100:
             self.x = float(msg.pose.pose.position.z) / 3
         else:
-            self.x = 0.0
-            self.y = 0.0
+            self.x = 0
+            self.y = 0
         if msg.pose.pose.position.x >= 0.1 or msg.pose.pose.position.x <= -0.1:
             self.y = float(msg.pose.pose.position.x) / 3
         else:
-            self.x = 0.0
-            self.y = 0.0
+            self.x = 0
+            self.y = 0
         self.label = msg.id
 
 
@@ -62,9 +62,9 @@ class MinimalPublisher(Node):
         # self.y = -0.00000000001
         # self.x = self.distance
         # self.distance -= 0.00001
-        if self.x == self.x_previous and self.y == self.y_previous and self.counter >= 3:
-            self.x = 0.
-            self.y = 0.
+        if self.x == self.x_previous and self.y == self.y_previous and self.counter >= 6:
+            self.x = 0
+            self.y = 0
             self.counter = 0
         elif self.x == self.x_previous and self.y == self.y_previous:
             self.counter += 1
@@ -104,19 +104,21 @@ class MinimalPublisher(Node):
 
         for i in range(result-3,result+3):
             msg.ranges[i] = float(R)
+            print(f'R: {R}')
+            print(f'i: {i}')
         # msg.ranges[result] = float(R)
-        # self.get_logger().info(f'ranges: {msg.ranges}')
+        self.get_logger().info(f'ranges: {msg.ranges}')
         self.publisher_.publish(msg)
         self.i += 1
         
         self.x_previous = self.x
         self.y_previous = self.y
-        print('label:', self.label)
-        print(f'x: {self.x}')
-        print(f'y: {self.y}')
-        print(f'x_previous: {self.x_previous}')
-        print(f'y_previous: {self.y_previous}')
-        print(f'counter: {self.counter}')
+        # print('label:', self.label)
+        # print(f'x: {self.x}')
+        # print(f'y: {self.y}')
+        # print(f'x_previous: {self.x_previous}')
+        # print(f'y_previous: {self.y_previous}')
+        # print(f'counter: {self.counter}')
         # self.distance -= 0.1
 
     def timer_callback(self):

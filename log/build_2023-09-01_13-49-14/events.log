@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.001217] (wtf) JobQueued: {'identifier': 'wtf', 'dependencies': OrderedDict()}
+[0.001251] (wtf) JobStarted: {'identifier': 'wtf'}
+[0.100148] (-) TimerEvent: {}
+[0.201842] (-) TimerEvent: {}
+[0.304014] (-) TimerEvent: {}
+[0.404666] (-) TimerEvent: {}
+[0.504999] (-) TimerEvent: {}
+[0.555853] (wtf) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jakub/wtf_ws/build/wtf/build'], 'cwd': '/home/jakub/wtf_ws/build/wtf', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jakub', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1502', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jakub', 'OLDPWD': '/home/jakub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '1318', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jakub/wtf_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jakub', 'JOURNAL_STREAM': '8:51510', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jakub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kakuter:@/tmp/.ICE-unix/1550,unix/kakuter:/tmp/.ICE-unix/1550', 'INVOCATION_ID': 'cca49737c90647258ba205d0a9b8a61e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/05169143_e34a_48b7_baeb_5ecfabb5770a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jakub/wtf_ws/install/wtf:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jakub/wtf_ws/build/wtf', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jakub/wtf_ws/build/wtf/prefix_override:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.605194] (-) TimerEvent: {}
+[0.624457] (wtf) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.624612] (wtf) StderrLine: {'line': b'!!\n'}
+[0.624648] (wtf) StderrLine: {'line': b'\n'}
+[0.624677] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.624706] (wtf) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.624733] (wtf) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.624760] (wtf) StderrLine: {'line': b'\n'}
+[0.624786] (wtf) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.624811] (wtf) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.624837] (wtf) StderrLine: {'line': b'\n'}
+[0.624862] (wtf) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.624887] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.624913] (wtf) StderrLine: {'line': b'\n'}
+[0.624937] (wtf) StderrLine: {'line': b'!!\n'}
+[0.624962] (wtf) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.705362] (-) TimerEvent: {}
+[0.722322] (wtf) StdoutLine: {'line': b'running develop\n'}
+[0.722458] (wtf) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[0.722495] (wtf) StderrLine: {'line': b'!!\n'}
+[0.722523] (wtf) StderrLine: {'line': b'\n'}
+[0.722556] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.722586] (wtf) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[0.722614] (wtf) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.722640] (wtf) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.722670] (wtf) StderrLine: {'line': b'\n'}
+[0.722695] (wtf) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[0.722732] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.722756] (wtf) StderrLine: {'line': b'\n'}
+[0.722780] (wtf) StderrLine: {'line': b'!!\n'}
+[0.722804] (wtf) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[0.740081] (wtf) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.740167] (wtf) StderrLine: {'line': b'!!\n'}
+[0.740202] (wtf) StderrLine: {'line': b'\n'}
+[0.740233] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.740262] (wtf) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.740290] (wtf) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.740319] (wtf) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.740352] (wtf) StderrLine: {'line': b'\n'}
+[0.740379] (wtf) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.740405] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.740432] (wtf) StderrLine: {'line': b'\n'}
+[0.740458] (wtf) StderrLine: {'line': b'!!\n'}
+[0.740484] (wtf) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.805434] (-) TimerEvent: {}
+[0.848458] (wtf) CommandEnded: {'returncode': 0}
+[0.849040] (wtf) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wtf', 'build', '--build-base', '/home/jakub/wtf_ws/build/wtf/build', 'install', '--record', '/home/jakub/wtf_ws/build/wtf/install.log', '--install-scripts', '$base/lib/wtf', '--single-version-externally-managed'], 'cwd': '/home/jakub/wtf_ws/src/wtf', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jakub', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1502', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jakub', 'OLDPWD': '/home/jakub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '1318', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jakub/wtf_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jakub', 'JOURNAL_STREAM': '8:51510', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jakub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kakuter:@/tmp/.ICE-unix/1550,unix/kakuter:/tmp/.ICE-unix/1550', 'INVOCATION_ID': 'cca49737c90647258ba205d0a9b8a61e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/05169143_e34a_48b7_baeb_5ecfabb5770a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jakub/wtf_ws/install/wtf:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jakub/wtf_ws/build/wtf', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jakub/wtf_ws/build/wtf/prefix_override:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.905628] (-) TimerEvent: {}
+[0.917634] (wtf) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.917732] (wtf) StderrLine: {'line': b'!!\n'}
+[0.917766] (wtf) StderrLine: {'line': b'\n'}
+[0.917793] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.917821] (wtf) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.917849] (wtf) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.917873] (wtf) StderrLine: {'line': b'\n'}
+[0.917897] (wtf) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.917921] (wtf) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.917946] (wtf) StderrLine: {'line': b'\n'}
+[0.917969] (wtf) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.917993] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.918021] (wtf) StderrLine: {'line': b'\n'}
+[0.918045] (wtf) StderrLine: {'line': b'!!\n'}
+[0.918069] (wtf) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.968524] (wtf) StdoutLine: {'line': b'running egg_info\n'}
+[0.976984] (wtf) StdoutLine: {'line': b'writing ../../build/wtf/wtf.egg-info/PKG-INFO\n'}
+[0.977094] (wtf) StdoutLine: {'line': b'writing dependency_links to ../../build/wtf/wtf.egg-info/dependency_links.txt\n'}
+[0.977162] (wtf) StdoutLine: {'line': b'writing entry points to ../../build/wtf/wtf.egg-info/entry_points.txt\n'}
+[0.977224] (wtf) StdoutLine: {'line': b'writing requirements to ../../build/wtf/wtf.egg-info/requires.txt\n'}
+[0.977284] (wtf) StdoutLine: {'line': b'writing top-level names to ../../build/wtf/wtf.egg-info/top_level.txt\n'}
+[1.005822] (-) TimerEvent: {}
+[1.047507] (wtf) StdoutLine: {'line': b"reading manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'\n"}
+[1.048079] (wtf) StdoutLine: {'line': b"writing manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'\n"}
+[1.048209] (wtf) StdoutLine: {'line': b'running build\n'}
+[1.048523] (wtf) StdoutLine: {'line': b'running build_py\n'}
+[1.048603] (wtf) StdoutLine: {'line': b'copying wtf/const_scan.py -> /home/jakub/wtf_ws/build/wtf/build/lib/wtf\n'}
+[1.048669] (wtf) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.048740] (wtf) StderrLine: {'line': b'!!\n'}
+[1.048799] (wtf) StderrLine: {'line': b'\n'}
+[1.048857] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.048921] (wtf) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.048978] (wtf) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.049033] (wtf) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.049089] (wtf) StderrLine: {'line': b'\n'}
+[1.049145] (wtf) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.049200] (wtf) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.049256] (wtf) StderrLine: {'line': b'\n'}
+[1.049312] (wtf) StderrLine: {'line': b'!!\n'}
+[1.049367] (wtf) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.049422] (wtf) StdoutLine: {'line': b'running install\n'}
+[1.051361] (wtf) StdoutLine: {'line': b'running install_lib\n'}
+[1.059745] (wtf) StdoutLine: {'line': b'copying /home/jakub/wtf_ws/build/wtf/build/lib/wtf/const_scan.py -> /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf\n'}
+[1.060075] (wtf) StdoutLine: {'line': b'byte-compiling /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf/const_scan.py to const_scan.cpython-38.pyc\n'}
+[1.060425] (wtf) StdoutLine: {'line': b'running install_data\n'}
+[1.068899] (wtf) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.077445] (wtf) StdoutLine: {'line': b"removing '/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.077568] (wtf) StdoutLine: {'line': b'Copying ../../build/wtf/wtf.egg-info to /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf-0.0.0-py3.8.egg-info\n'}
+[1.077768] (wtf) StdoutLine: {'line': b'running install_scripts\n'}
+[1.103514] (wtf) StdoutLine: {'line': b'Installing const_scan script to /home/jakub/wtf_ws/install/wtf/lib/wtf\n'}
+[1.103639] (wtf) StdoutLine: {'line': b'Installing scan_publisher script to /home/jakub/wtf_ws/install/wtf/lib/wtf\n'}
+[1.103706] (wtf) StdoutLine: {'line': b"writing list of installed files to '/home/jakub/wtf_ws/build/wtf/install.log'\n"}
+[1.106015] (-) TimerEvent: {}
+[1.118075] (wtf) CommandEnded: {'returncode': 0}
+[1.127131] (wtf) JobEnded: {'identifier': 'wtf', 'rc': 0}
+[1.127455] (-) EventReactorShutdown: {}

@@ -31,4 +31,5 @@ test/test_pep257.py
 worlds/empty.world
 worlds/worlds_combined.world
 wtf/__init__.py
+wtf/const_scan.py
 wtf/scan_publisher.py

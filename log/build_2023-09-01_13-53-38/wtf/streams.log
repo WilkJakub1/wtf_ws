@@ -1,0 +1,97 @@
+[0.428s] Invoking command in '/home/jakub/wtf_ws/build/wtf': PYTHONPATH=/home/jakub/wtf_ws/build/wtf/prefix_override:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jakub/wtf_ws/build/wtf/build
+[0.494s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.494s] !!
+[0.494s] 
+[0.494s]         ********************************************************************************
+[0.494s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.494s]         versions. Please use the underscore name 'script_dir' instead.
+[0.494s] 
+[0.494s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.494s]         or your builds will no longer be supported.
+[0.494s] 
+[0.494s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.494s]         ********************************************************************************
+[0.494s] 
+[0.494s] !!
+[0.494s]   opt = self.warn_dash_deprecation(opt, section)
+[0.593s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.593s] !!
+[0.593s] 
+[0.593s]         ********************************************************************************
+[0.593s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.593s]         Instead, use pypa/build, pypa/installer or other
+[0.593s]         standards-based tools.
+[0.593s] 
+[0.593s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.593s]         ********************************************************************************
+[0.593s] 
+[0.593s] !!
+[0.593s]   easy_install.initialize_options(self)
+[0.593s] running develop
+[0.610s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.610s] !!
+[0.610s] 
+[0.610s]         ********************************************************************************
+[0.610s]         Please avoid running ``setup.py`` directly.
+[0.610s]         Instead, use pypa/build, pypa/installer or other
+[0.610s]         standards-based tools.
+[0.610s] 
+[0.610s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.610s]         ********************************************************************************
+[0.610s] 
+[0.610s] !!
+[0.610s]   self.initialize_options()
+[0.716s] Invoked command in '/home/jakub/wtf_ws/build/wtf' returned '0': PYTHONPATH=/home/jakub/wtf_ws/build/wtf/prefix_override:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jakub/wtf_ws/build/wtf/build
+[0.716s] Invoking command in '/home/jakub/wtf_ws/src/wtf': PYTHONPATH=/home/jakub/wtf_ws/build/wtf/prefix_override:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wtf build --build-base /home/jakub/wtf_ws/build/wtf/build install --record /home/jakub/wtf_ws/build/wtf/install.log --install-scripts $base/lib/wtf --single-version-externally-managed
+[0.782s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.782s] !!
+[0.782s] 
+[0.782s]         ********************************************************************************
+[0.782s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.782s]         versions. Please use the underscore name 'script_dir' instead.
+[0.783s] 
+[0.783s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.783s]         or your builds will no longer be supported.
+[0.783s] 
+[0.783s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.783s]         ********************************************************************************
+[0.783s] 
+[0.783s] !!
+[0.783s]   opt = self.warn_dash_deprecation(opt, section)
+[0.836s] running egg_info
+[0.844s] writing ../../build/wtf/wtf.egg-info/PKG-INFO
+[0.844s] writing dependency_links to ../../build/wtf/wtf.egg-info/dependency_links.txt
+[0.844s] writing entry points to ../../build/wtf/wtf.egg-info/entry_points.txt
+[0.844s] writing requirements to ../../build/wtf/wtf.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/wtf/wtf.egg-info/top_level.txt
+[0.914s] reading manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'
+[0.915s] writing manifest file '../../build/wtf/wtf.egg-info/SOURCES.txt'
+[0.915s] running build
+[0.915s] running build_py
+[0.915s] copying wtf/scan_publisher.py -> /home/jakub/wtf_ws/build/wtf/build/lib/wtf
+[0.915s] running install
+[0.915s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.916s] !!
+[0.916s] 
+[0.916s]         ********************************************************************************
+[0.916s]         Please avoid running ``setup.py`` directly.
+[0.916s]         Instead, use pypa/build, pypa/installer or other
+[0.916s]         standards-based tools.
+[0.916s] 
+[0.916s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.916s]         ********************************************************************************
+[0.916s] 
+[0.916s] !!
+[0.916s]   self.initialize_options()
+[0.918s] running install_lib
+[0.927s] copying /home/jakub/wtf_ws/build/wtf/build/lib/wtf/scan_publisher.py -> /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf
+[0.927s] byte-compiling /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf/scan_publisher.py to scan_publisher.cpython-38.pyc
+[0.928s] running install_data
+[0.937s] running install_egg_info
+[0.946s] removing '/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf-0.0.0-py3.8.egg-info' (and everything under it)
+[0.946s] Copying ../../build/wtf/wtf.egg-info to /home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages/wtf-0.0.0-py3.8.egg-info
+[0.946s] running install_scripts
+[0.972s] Installing const_scan script to /home/jakub/wtf_ws/install/wtf/lib/wtf
+[0.972s] Installing scan_publisher script to /home/jakub/wtf_ws/install/wtf/lib/wtf
+[0.972s] writing list of installed files to '/home/jakub/wtf_ws/build/wtf/install.log'
+[0.987s] Invoked command in '/home/jakub/wtf_ws/src/wtf' returned '0': PYTHONPATH=/home/jakub/wtf_ws/build/wtf/prefix_override:/home/jakub/wtf_ws/install/wtf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wtf build --build-base /home/jakub/wtf_ws/build/wtf/build install --record /home/jakub/wtf_ws/build/wtf/install.log --install-scripts $base/lib/wtf --single-version-externally-managed
